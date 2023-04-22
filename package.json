@@ -1,0 +1,20 @@
+{
+  "name": "gw2logsfetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "pkg . --targets node16-win-x64 --output !fetchlogs.exe"
+  },
+  "bin": {
+    "gw2logsfetcher": "./index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.9.0",
+    "dotenv": "^16.0.3"
+  }
+}
