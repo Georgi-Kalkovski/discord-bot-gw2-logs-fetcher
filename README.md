@@ -1,0 +1,1 @@
+# discord-bot-gw2-logs-fetcher
